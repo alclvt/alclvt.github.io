@@ -55,10 +55,19 @@ h1 {
   width: 200px;
   margin: 25px auto;
   padding: 5px;
+  padding-left: 15px;
   text-align: center;
   background-color: brown;
   display: flex;
   flex-direction: row;
+  border-radius: 25px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+
+.links li:hover {
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 li span {
