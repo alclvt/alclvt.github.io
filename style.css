@@ -34,43 +34,22 @@ h1 {
   height: 300px;
 }
 
-.container {
-  background: white;
-  border-style: dashed;
-  width: 35%;
-  margin: 0px auto;
-}
-
 .links-container {
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  width: 35%;
+  margin: auto;
   background-color: blueviolet;
-  flex: 1;
 }
 
-.links {
-  list-style: none;
-}
-
-.links li {
-  width: 200px;
-  margin: 25px auto;
-  padding: 5px;
-  padding-left: 15px;
-  text-align: center;
-  background-color: brown;
+.link {
+  height: 150px;
   display: flex;
-  flex-direction: row;
-  border-radius: 25px;
-  transition-duration: 500ms;
-  transition-timing-function: ease;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  background-color: brown;
 }
 
-.links li:hover {
-  border-bottom-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-
-li span {
+.link span {
   margin-left: 15px;
+  font-size: 50px;
 }
