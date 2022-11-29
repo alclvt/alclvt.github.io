@@ -50,6 +50,22 @@ h1 {
   background-color: brown;
 }
 
+.link-background {
+  z-index: -1;
+  height: 250px;
+  background-color: aqua;
+  width: 1300px;
+  position: absolute;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.link:hover>.link-background {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .link span {
   margin-left: 15px;
   font-size: 50px;
