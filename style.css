@@ -41,6 +41,11 @@ h1 {
   background-color: blueviolet;
 }
 
+.links-container>a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .link {
   background-color: brown;
   height: 150px;
